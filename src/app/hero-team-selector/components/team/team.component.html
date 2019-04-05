@@ -1,0 +1,11 @@
+<div class="team-wrapper">
+  <h2>{{ title }}</h2>
+  <div class="team">
+    <app-hero-card
+      *ngFor="let member of teamMembers"
+      [member]="member"
+      (removeMember)="onRemoveMember($event)"
+    ></app-hero-card>
+    <app-empty-card *ngFor="let card of blankTeam"></app-empty-card>
+  </div>
+</div>

@@ -1,0 +1,9 @@
+.team-wrapper {
+  height: 30vh;
+
+  .team {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+  }
+}

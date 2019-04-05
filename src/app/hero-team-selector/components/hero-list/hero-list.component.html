@@ -1,0 +1,8 @@
+<div class="list">
+  <h2>{{ title }}</h2>
+  <app-hero-list-item
+    *ngFor="let item of list"
+    [item]="item"
+    (selectItem)="onSelect($event)"
+  ></app-hero-list-item>
+</div>

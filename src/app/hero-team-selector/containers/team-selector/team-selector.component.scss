@@ -1,0 +1,14 @@
+.selector-wrapper {
+  display: flex;
+  flex-direction: row;
+  height: 65vh;
+
+  .teams-wrapper {
+    display: flex;
+    width: 100%;
+    background: #efefef;
+    flex-direction: column;
+    padding: 2rem;
+    justify-content: space-between;
+  }
+}
