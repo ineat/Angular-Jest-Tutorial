@@ -1,0 +1,24 @@
+<div class="selector-wrapper">
+  <app-hero-list
+    [list]="heroList"
+    title="Heroes"
+    (selectItem)="onSelectMember($event)"
+  ></app-hero-list>
+  <div class="teams-wrapper">
+    <app-team
+      title="Team of Heros"
+      [teamMembers]="heroesTeam"
+      (removeMember)="onRemoveMember($event)"
+    ></app-team>
+    <app-team
+      title="Team of Wicked"
+      [teamMembers]="wickedTeam"
+      (removeMember)="onRemoveMember($event)"
+    ></app-team>
+  </div>
+  <app-hero-list
+    [list]="wickedList"
+    title="Wicked"
+    (selectItem)="onSelectMember($event)"
+  ></app-hero-list>
+</div>

@@ -1,0 +1,9 @@
+<div class="item">
+  <img [src]="item.thumb" [alt]="item.name" />
+  <div class="item-infos">
+    <span class="name">{{ item.name }}</span>
+    <div class="actions">
+      <button class="btn primary" (click)="select()">Select</button>
+    </div>
+  </div>
+</div>
