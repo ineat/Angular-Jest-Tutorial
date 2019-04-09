@@ -1,6 +1,6 @@
 <div class="selector-wrapper">
   <app-hero-list
-    [list]="heroList"
+    [list]="heroList$ | async"
     title="Heroes"
     (selectItem)="onSelectMember($event)"
   ></app-hero-list>
@@ -17,7 +17,7 @@
     ></app-team>
   </div>
   <app-hero-list
-    [list]="wickedList"
+    [list]="wickedList$ | async"
     title="Wicked"
     (selectItem)="onSelectMember($event)"
   ></app-hero-list>

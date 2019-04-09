@@ -1,0 +1,78 @@
+{
+  "hero": [
+    {
+      "id": 1,
+      "name": "Deadpool",
+      "real_name": "Wade Wilson",
+      "thumb": "https://i.annihil.us/u/prod/marvel/i/mg/9/90/5261a86cacb99/standard_xlarge.jpg",
+      "image": "https://i.annihil.us/u/prod/marvel/i/mg/9/90/5261a86cacb99.jpg",
+      "description": ""
+    },
+    {
+      "id": 2,
+      "name": "Hulk",
+      "real_name": "Robert Bruce Banner",
+      "thumb": "https://i.annihil.us/u/prod/marvel/i/mg/5/a0/538615ca33ab0/standard_xlarge.jpg",
+      "image": "https://i.annihil.us/u/prod/marvel/i/mg/e/e0/537bafa34baa9.jpg",
+      "description": "Caught in a gamma bomb explosion while trying to save the life of a teenager, Dr. Bruce Banner was transformed into the incredibly powerful creature called the Hulk. An all too often misunderstood hero, the angrier the Hulk gets, the stronger the Hulk gets."
+    },
+    {
+      "id": 3,
+      "name": "IronMan",
+      "real_name": "Anthony Edward \"Tony\" Stark",
+      "thumb": "https://i.annihil.us/u/prod/marvel/i/mg/6/a0/55b6a25e654e6/standard_xlarge.jpg",
+      "image": "https://i.annihil.us/u/prod/marvel/i/mg/c/60/55b6a28ef24fa.jpg",
+      "description": "Inventor Tony Stark applies his genius for high-tech solutions to problems as Iron Man, the armored Avenger."
+    },
+    {
+      "id": 4,
+      "name": "Spider-Man",
+      "real_name": "Peter Parker",
+      "thumb": "https://i.annihil.us/u/prod/marvel/i/mg/3/50/526548a343e4b/standard_xlarge.jpg",
+      "image": "https://i.annihil.us/u/prod/marvel/i/mg/3/50/526548a343e4b.jpg",
+      "description": "Bitten by a radioactive spider, high school student Peter Parker gained the speed, strength and powers of a spider. Adopting the name Spider-Man, Peter hoped to start a career using his new abilities. Taught that with great power comes great responsibility, Spidey has vowed to use his powers to help people."
+    },
+    {
+      "id": 5,
+      "name": "Wolverine",
+      "real_name": "James Howlett",
+      "thumb": "https://i.annihil.us/u/prod/marvel/i/mg/2/60/537bcaef0f6cf/standard_xlarge.jpg",
+      "image": "https://i.annihil.us/u/prod/marvel/i/mg/2/60/537bcaef0f6cf.jpg",
+      "description": "Born with super-human senses and the power to heal from almost any wound, Wolverine was captured by a secret Canadian organization and given an unbreakable skeleton and claws. Treated like an animal, it took years for him to control himself. Now, he's a premiere member of both the X-Men and the Avengers."
+    },
+    {
+      "id": 6,
+      "name": "Black Panther",
+      "real_name": "James Howlett",
+      "thumb": "http://i.annihil.us/u/prod/marvel/i/mg/6/60/5261a80a67e7d/standard_xlarge.jpg",
+      "image": "http://i.annihil.us/u/prod/marvel/i/mg/6/60/5261a80a67e7d.jpg",
+      "description": "As the king of the African nation of Wakanda, T’Challa protects his people as the latest in a legacy line of Black Panther warriors."
+    }
+  ],
+  "wicked": [
+    {
+      "id": 1,
+      "name": "Loki",
+      "real_name": "Loki",
+      "thumb": "http://i.annihil.us/u/prod/marvel/i/mg/d/90/526547f509313/standard_xlarge.jpg",
+      "image": "http://i.annihil.us/u/prod/marvel/i/mg/d/90/526547f509313.jpg",
+      "description": ""
+    },
+    {
+      "id": 2,
+      "name": "Thanos",
+      "real_name": "Thanos",
+      "thumb": "http://i.annihil.us/u/prod/marvel/i/mg/6/40/5274137e3e2cd/standard_xlarge.jpg",
+      "image": "http://i.annihil.us/u/prod/marvel/i/mg/6/40/5274137e3e2cd.jpg",
+      "description": "The Mad Titan Thanos, a melancholy, brooding individual, consumed with the concept of death, sought out personal power and increased strength, endowing himself with cybernetic implants until he became more powerful than any of his brethren."
+    },
+    {
+      "id": 3,
+      "name": "Ultron",
+      "real_name": "Ultron",
+      "thumb": "http://i.annihil.us/u/prod/marvel/i/mg/3/70/5261a838e93c0/standard_xlarge.jpg",
+      "image": "http://i.annihil.us/u/prod/marvel/i/mg/3/70/5261a838e93c0.jpg",
+      "description": "Arguably the greatest and certainly the most horrific creation of scientific genius Dr. Henry Pym, Ultron is a criminally insane rogue sentient robot dedicated to conquest and the extermination of humanity."
+    }
+  ]
+}

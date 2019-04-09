@@ -1,4 +1,5 @@
 import { async, ComponentFixture, TestBed } from '@angular/core/testing';
+import { HttpClientTestingModule } from '@angular/common/http/testing';
 
 import { TeamSelectorComponent } from './team-selector.component';
 import {
@@ -71,6 +72,7 @@ describe('TeamSelectorComponent', () => {
 
   beforeEach(async(() => {
     TestBed.configureTestingModule({
+      imports: [HttpClientTestingModule],
       declarations: [
         TeamSelectorComponent,
         HeroListComponent,
