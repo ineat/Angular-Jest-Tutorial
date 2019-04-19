@@ -1,7 +1,7 @@
 # AngularHeroTeam
 This project is attached to article related to How to change Angular Karma/Jasmine test framework by Jest and how to perform unit test using Jest
 
-> URL de l'article
+> https://blog.ineat-conseil.fr/2019/04/angular-remplacer-karma-jasmine-par-jest
 
 ## 01-Init-switch-Karma-Jasmine-to-Jest branch
 Initial project generated with [Angular CLI](https://github.com/angular/angular-cli) version 7.3.5. And replace Karma/Jasmine test framework by Jest
