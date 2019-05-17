@@ -1,0 +1,26 @@
+[
+  {
+    "id": 1,
+    "name": "Loki",
+    "real_name": "Loki",
+    "thumb": "http://i.annihil.us/u/prod/marvel/i/mg/d/90/526547f509313/standard_xlarge.jpg",
+    "image": "http://i.annihil.us/u/prod/marvel/i/mg/d/90/526547f509313.jpg",
+    "description": ""
+  },
+  {
+    "id": 2,
+    "name": "Thanos",
+    "real_name": "Thanos",
+    "thumb": "http://i.annihil.us/u/prod/marvel/i/mg/6/40/5274137e3e2cd/standard_xlarge.jpg",
+    "image": "http://i.annihil.us/u/prod/marvel/i/mg/6/40/5274137e3e2cd.jpg",
+    "description": "The Mad Titan Thanos, a melancholy, brooding individual, consumed with the concept of death, sought out personal power and increased strength, endowing himself with cybernetic implants until he became more powerful than any of his brethren."
+  },
+  {
+    "id": 3,
+    "name": "Ultron",
+    "real_name": "Ultron",
+    "thumb": "http://i.annihil.us/u/prod/marvel/i/mg/3/70/5261a838e93c0/standard_xlarge.jpg",
+    "image": "http://i.annihil.us/u/prod/marvel/i/mg/3/70/5261a838e93c0.jpg",
+    "description": "Arguably the greatest and certainly the most horrific creation of scientific genius Dr. Henry Pym, Ultron is a criminally insane rogue sentient robot dedicated to conquest and the extermination of humanity."
+  }
+]
