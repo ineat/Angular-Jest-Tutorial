@@ -16,7 +16,7 @@ describe('HeroListComponent', () => {
   beforeEach(() => {
     fixture = TestBed.createComponent(HeroListComponent);
     component = fixture.componentInstance;
-    spyOn(component.selectItem, 'emit');
+    jest.spyOn(component.selectItem, 'emit');
     component.title = 'hero';
     component.list = [
       {

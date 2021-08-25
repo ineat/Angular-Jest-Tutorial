@@ -15,7 +15,7 @@ describe('HeroCardComponent', () => {
   beforeEach(() => {
     fixture = TestBed.createComponent(HeroCardComponent);
     component = fixture.componentInstance;
-    spyOn(component.removeMember, 'emit');
+    jest.spyOn(component.removeMember, 'emit');
     component.member = {
       id: 3,
       name: 'IronMan',

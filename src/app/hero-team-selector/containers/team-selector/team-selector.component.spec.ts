@@ -89,7 +89,7 @@ describe("TeamSelectorComponent", () => {
   beforeEach(() => {
     fixture = TestBed.createComponent(TeamSelectorComponent);
     component = fixture.componentInstance;
-    spyOn(window, "alert");
+    jest.spyOn(window, "alert").mockReturnValue();
     fixture.detectChanges();
   });
 

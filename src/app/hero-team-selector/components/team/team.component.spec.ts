@@ -17,7 +17,7 @@ describe('TeamComponent', () => {
   beforeEach(() => {
     fixture = TestBed.createComponent(TeamComponent);
     component = fixture.componentInstance;
-    (component.title = 'Team Hero'), spyOn(component.removeMember, 'emit');
+    (component.title = 'Team Hero'), jest.spyOn(component.removeMember, 'emit');
     fixture.detectChanges();
   });
 

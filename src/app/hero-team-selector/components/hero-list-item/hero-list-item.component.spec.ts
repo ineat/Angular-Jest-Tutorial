@@ -15,7 +15,7 @@ describe('HeroListItemComponent', () => {
   beforeEach(() => {
     fixture = TestBed.createComponent(HeroListItemComponent);
     component = fixture.componentInstance;
-    spyOn(component.selectItem, 'emit');
+    jest.spyOn(component.selectItem, 'emit');
     component.item = {
       id: 3,
       name: 'IronMan',
