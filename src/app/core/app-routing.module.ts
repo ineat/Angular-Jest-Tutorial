@@ -6,7 +6,7 @@ const routes: Routes = [
   {
     path: 'teams',
     loadChildren:
-      '../hero-team-selector/hero-team-selector.module#HeroTeamSelectorModule'
+      () => import('../hero-team-selector/hero-team-selector.module').then(m => m.HeroTeamSelectorModule)
   }
 ];
 
