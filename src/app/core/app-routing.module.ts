@@ -6,12 +6,12 @@ const routes: Routes = [
   {
     path: 'teams',
     loadChildren:
-      '../hero-team-selector/hero-team-selector.module#HeroTeamSelectorModule'
+      () => import('../hero-team-selector/hero-team-selector.module').then(m => m.HeroTeamSelectorModule)
   }
 ];
 
 @NgModule({
-  imports: [RouterModule.forRoot(routes)],
+  imports: [RouterModule.forRoot(routes, { relativeLinkResolution: 'legacy' })],
   exports: [RouterModule]
 })
 export class AppRoutingModule {}

@@ -1,4 +1,4 @@
-import { async, ComponentFixture, TestBed } from '@angular/core/testing';
+import { ComponentFixture, TestBed, waitForAsync } from '@angular/core/testing';
 
 import { HeroListComponent } from './hero-list.component';
 import { HeroListItemComponent } from '../hero-list-item/hero-list-item.component';
@@ -7,7 +7,7 @@ describe('HeroListComponent', () => {
   let component: HeroListComponent;
   let fixture: ComponentFixture<HeroListComponent>;
 
-  beforeEach(async(() => {
+  beforeEach(waitForAsync(() => {
     TestBed.configureTestingModule({
       declarations: [HeroListComponent, HeroListItemComponent]
     }).compileComponents();
@@ -16,7 +16,7 @@ describe('HeroListComponent', () => {
   beforeEach(() => {
     fixture = TestBed.createComponent(HeroListComponent);
     component = fixture.componentInstance;
-    spyOn(component.selectItem, 'emit');
+    jest.spyOn(component.selectItem, 'emit');
     component.title = 'hero';
     component.list = [
       {
